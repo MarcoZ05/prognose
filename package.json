@@ -1,0 +1,16 @@
+{
+  "name": "prognose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/index.js",
+  "scripts": {
+    "dev": "node js/index.js",
+    "dev2":"node js/index2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
