@@ -11,7 +11,11 @@ fert.shift();
 mort.shift();
 
 const data = initPopData("2021", ["WORLD"])
+console.log(data)
 const data1 = simulateYear(data)
+data[0].pop.forEach((age,i) => {
+    console.log(i + ":" + age)
+})
 
 function initPopData(year = "2021", countries = undefined) {
     let data = [];
@@ -20,6 +24,7 @@ function initPopData(year = "2021", countries = undefined) {
     for (let i = 0; i < pop.length; i++) {
         if (pop[i]["__EMPTY_2"] == year && (countries === undefined || countries.includes(pop[i]["__EMPTY"]))) {
             let obj = {
+                country: pop[i]["__EMPTY"],
                 type: pop[i]["__EMPTY_1"],
                 year: pop[i]["__EMPTY_2"],
                 pop: [],
@@ -27,10 +32,11 @@ function initPopData(year = "2021", countries = undefined) {
                 // fert: []
             }
 
+            obj.pop.push(pop[i]["Total population by single age, both sexes combined (thousands)"])
             for (let j = 3; j < 103; j++) {
                 obj.pop.push(pop[i]["__EMPTY_" + j]);
             }
-            data[pop[i]["__EMPTY"]] = obj
+            data.push(obj)
         }
     }
 
@@ -55,46 +61,30 @@ function initPopData(year = "2021", countries = undefined) {
     return data;
 }
 
-function simulateYear(countries, death_rate = 0.075, birth_rate = 0.06605) {
-    console.log(countries)
-    // give type of countries
-    console.log(typeof countries)
+function simulateYear(countries, death_rate = 0.0075, birth_rate = 0.06605) {
+    countries.forEach((country) => {
+        country.year++
 
-    for(let i = 0; i < countries.length;i++){
-        console.log(2);
-        const country = countries[i]
-        
-        for (let i = country.pop.length - 2; i > 0; i--) {
+        for (let i = country.pop.length - 2; i >= 0; i--) {
             country.pop[i + 1] = country.pop[i] * (1 - death_rate)
         }
 
         // 0 age
-        country.pop[0] = getChildbearingWomen(pop, fert) * birth_rate
-    }
-
-    // countries.forEach((country) => {
-    //     console.log(country);
-
-    //     for (let i = country.pop.length - 2; i > 0; i--) {
-    //         country.pop[i + 1] = country.pop[i] * (1 - death_rate)
-    //     }
-
-    //     // 0 age
-    //     country.pop[0] = getChildbearingWomen(pop, fert) * birth_rate
-
-    // })
+        country.pop[0] = getChildbearingWomen(country.pop, fert) * birth_rate
+    })
 
     return countries;
 }
 
-function getChildbearingWomen(pop) {
+function getChildbearingWomen(population) {
     let all = 0;
 
     // women between 15 and 49
 
-    pop.foreach((age, i) => {
-        if (age >= 15 && age <= 49)
+    population.forEach((age, i) => {
+        if (i >= 15 && i <= 49) {
             all += age / 2
+        }
     })
 
     return all;
