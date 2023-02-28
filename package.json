@@ -5,12 +5,13 @@
   "main": "./js/index.js",
   "scripts": {
     "dev": "node js/index.js",
-    "dev2":"node js/index2.js"
+    "dev2": "node js/index2.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chart.js": "^4.2.1",
     "nodemon": "^2.0.20"
   }
 }
