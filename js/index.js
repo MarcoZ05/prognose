@@ -1,5 +1,8 @@
 const fs = require("fs");
 
+// start timer
+console.timer("timer")
+
 const data_pop = fs.readFileSync("./data/pop.json");
 const data_fert = fs.readFileSync("./data/fert.json");
 const data_mort = fs.readFileSync("./data/mort.json");
@@ -10,9 +13,9 @@ pop.shift();
 fert.shift();
 mort.shift();
 
-const data = initPopData("2021", ["WORLD"])
+const data = initPopData("2021", ["Germany"])
 console.log(data)
-const data1 = simulateYear(data)
+simulateYear(data)
 console.log(data)
 
 function initPopData(year = "2021", countries = undefined) {
