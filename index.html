@@ -43,7 +43,23 @@
           scales: {
             y: {
               beginAtZero: true
-            }
+            },
+            yAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Bevölkerung in 1000'
+                }
+              }
+            ],
+            xAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Altersgruppen'
+                }
+              }
+            ]
           },
           maintainAspectRatio: false
         }
@@ -54,11 +70,11 @@
       new Chart(ctx2, {
         type: 'line',
         data: {
-          labels: Data2.map((e)=> e.year),
+          labels: Data2.map(e => e.year),
           datasets: [
             {
               label: Data2[Data2.length - 1].year + 1,
-              data: Data2.map((e)=> e.pop),
+              data: Data2.map(e => e.pop),
               borderWidth: 1
             }
           ]
@@ -70,7 +86,23 @@
           scales: {
             y: {
               beginAtZero: true
-            }
+            },
+            yAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Gesamtpopulation'
+                }
+              }
+            ],
+            xAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Jahre'
+                }
+              }
+            ]
           },
           maintainAspectRatio: false
         }

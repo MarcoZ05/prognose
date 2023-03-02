@@ -33,7 +33,7 @@ const interval = setInterval(() => {
     fs.writeFileSync("./data/pop.js", "export default " + JSON.stringify(popArr));
 
     startYear++
-}, 50)
+}, 500)
 
 
 function initPopData(year = '2021', countries = undefined) {
@@ -114,23 +114,23 @@ function simulateYear(countries) {
     countries.forEach(country => {
         country.year++
 
-        for (let i = country.pop.length - 2; i >= 1; i--) {
+        for (let i = country.pop.length - 2; i >= 0; i--) {
             country.pop[i + 1] = Math.round(
                 Math.abs(country.pop[i] * (1 - country.mort[i]))
             )
             if (country.pop[i + 1] < 0) country.pop[i + 1] = 0
         }
 
-        if (country.country == "WORLD")
-            country.pop[1] = country.pop[0] * (1 - Math.abs((country.year <= 2044 ? 0.00404 : (-1.34 * country.year + 2743) / 1000)))
-        if (country.hdi > 0.85)
-            country.pop[1] = country.pop[0] * (1 - 0.0049)
-        if (country.hdi > 0.7)
-            country.pop[1] = country.pop[0] * (1 - 0.0052)
-        if (country.hdi > 0.55)
-            country.pop[1] = country.pop[0] * (1 - Math.abs((country.year <= 2029 ? 0.0049 : (-2.12 * country.year + 4351) / 1000)))
-        else
-            country.pop[1] = country.pop[0] * (1 - Math.abs((country.year <= 2129 ? 0.0049 : (-country.year + 2178) / 1000)))
+        // if (country.country == "WORLD")
+        //     country.pop[1] = country.pop[0] * (1 - Math.abs((country.year <= 2044 ? 0.00404 : (-1.34 * country.year + 2743) / 1000)))
+        // if (country.hdi > 0.85)
+        //     country.pop[1] = country.pop[0] * (1 - 0.0049)
+        // if (country.hdi > 0.7)
+        //     country.pop[1] = country.pop[0] * (1 - 0.0052)
+        // if (country.hdi > 0.55)
+        //     country.pop[1] = country.pop[0] * (1 - Math.abs((country.year <= 2029 ? 0.0049 : (-2.12 * country.year + 4351) / 1000)))
+        // else
+        //     country.pop[1] = country.pop[0] * (1 - Math.abs((country.year <= 2129 ? 0.0049 : (-country.year + 2178) / 1000)))
 
         country.pop[0] =
             getChildbearingWomen(country.pop) *
