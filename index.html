@@ -7,31 +7,39 @@
     <title>Document</title>
   </head>
   <body>
-    <canvas id="myChart" width="400" height="400"> </canvas>
-    <canvas id="myChart2" width="400" height="400"> </canvas>
-    2
+    <div>
+      <canvas id="myChart" width="400" height="400"> </canvas>
+    </div>
+
+    <div>
+      <canvas id="myChart2" width="400" height="400"> </canvas>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module">
-      import Data from './data/data.js'
+      import Data1 from './data/data.js'
+      import Data2 from './data/pop.js'
 
       const ctx = document.getElementById('myChart')
-      const ctx2 = document.getElementById('myChart2')
 
       new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: Data[0].pop.map((a, i) => {
+          labels: Data1[0].pop.map((a, i) => {
             return i
           }),
           datasets: [
             {
-              label: Data[0].country,
-              data: Data[0].pop,
+              label: Data1[0].country + ': ' + Data1[0].year,
+              data: Data1[0].pop,
               borderWidth: 1
             }
           ]
         },
         options: {
+          animation: {
+            duration: 0
+          },
           scales: {
             y: {
               beginAtZero: true
@@ -41,21 +49,24 @@
         }
       })
 
+      const ctx2 = document.getElementById('myChart2')
+
       new Chart(ctx2, {
-        type: 'bar',
+        type: 'line',
         data: {
-          labels: Data[0].pop.map((a, i) => {
-            return i
-          }),
+          labels: Data2.map((e)=> e.year),
           datasets: [
             {
-              label: Data[0].country,
-              data: Data[0].pop,
+              label: Data2[Data2.length - 1].year + 1,
+              data: Data2.map((e)=> e.pop),
               borderWidth: 1
             }
           ]
         },
         options: {
+          animation: {
+            duration: 0
+          },
           scales: {
             y: {
               beginAtZero: true

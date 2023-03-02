@@ -1,0 +1,845 @@
+[
+  {
+    "Country": "Switzerland",
+    "HDI": 0.962
+  },
+  {
+    "Country": "Norway",
+    "HDI": 0.961
+  },
+  {
+    "Country": "Iceland",
+    "HDI": 0.959
+  },
+  {
+    "Country": "Hong Kong, China (SAR)",
+    "HDI": 0.952
+  },
+  {
+    "Country": "Australia",
+    "HDI": 0.951
+  },
+  {
+    "Country": "Denmark",
+    "HDI": 0.948
+  },
+  {
+    "Country": "Sweden",
+    "HDI": 0.947
+  },
+  {
+    "Country": "Ireland",
+    "HDI": 0.945
+  },
+  {
+    "Country": "Germany",
+    "HDI": 0.942
+  },
+  {
+    "Country": "Netherlands",
+    "HDI": 0.941
+  },
+  {
+    "Country": "Finland",
+    "HDI": 0.94
+  },
+  {
+    "Country": "Singapore",
+    "HDI": 0.939
+  },
+  {
+    "Country": "Belgium",
+    "HDI": 0.937
+  },
+  {
+    "Country": "New Zealand",
+    "HDI": 0.937
+  },
+  {
+    "Country": "Canada",
+    "HDI": 0.936
+  },
+  {
+    "Country": "Liechtenstein",
+    "HDI": 0.935
+  },
+  {
+    "Country": "Luxembourg",
+    "HDI": 0.93
+  },
+  {
+    "Country": "United Kingdom",
+    "HDI": 0.929
+  },
+  {
+    "Country": "Japan",
+    "HDI": 0.925
+  },
+  {
+    "Country": "Korea (Republic of)",
+    "HDI": 0.925
+  },
+  {
+    "Country": "United States",
+    "HDI": 0.921
+  },
+  {
+    "Country": "Israel",
+    "HDI": 0.919
+  },
+  {
+    "Country": "Malta",
+    "HDI": 0.918
+  },
+  {
+    "Country": "Slovenia",
+    "HDI": 0.918
+  },
+  {
+    "Country": "Austria",
+    "HDI": 0.916
+  },
+  {
+    "Country": "United Arab Emirates",
+    "HDI": 0.911
+  },
+  {
+    "Country": "Spain",
+    "HDI": 0.905
+  },
+  {
+    "Country": "France",
+    "HDI": 0.903
+  },
+  {
+    "Country": "Cyprus",
+    "HDI": 0.896
+  },
+  {
+    "Country": "Italy",
+    "HDI": 0.895
+  },
+  {
+    "Country": "Estonia",
+    "HDI": 0.89
+  },
+  {
+    "Country": "Czechia",
+    "HDI": 0.889
+  },
+  {
+    "Country": "Greece",
+    "HDI": 0.887
+  },
+  {
+    "Country": "Poland",
+    "HDI": 0.876
+  },
+  {
+    "Country": "Bahrain",
+    "HDI": 0.875
+  },
+  {
+    "Country": "Lithuania",
+    "HDI": 0.875
+  },
+  {
+    "Country": "Saudi Arabia",
+    "HDI": 0.875
+  },
+  {
+    "Country": "Portugal",
+    "HDI": 0.866
+  },
+  {
+    "Country": "Latvia",
+    "HDI": 0.863
+  },
+  {
+    "Country": "Andorra",
+    "HDI": 0.858
+  },
+  {
+    "Country": "Croatia",
+    "HDI": 0.858
+  },
+  {
+    "Country": "Chile",
+    "HDI": 0.855
+  },
+  {
+    "Country": "Qatar",
+    "HDI": 0.855
+  },
+  {
+    "Country": "San Marino",
+    "HDI": 0.853
+  },
+  {
+    "Country": "Slovakia",
+    "HDI": 0.848
+  },
+  {
+    "Country": "Hungary",
+    "HDI": 0.846
+  },
+  {
+    "Country": "Argentina",
+    "HDI": 0.842
+  },
+  {
+    "Country": "Türkiye",
+    "HDI": 0.838
+  },
+  {
+    "Country": "Montenegro",
+    "HDI": 0.832
+  },
+  {
+    "Country": "Kuwait",
+    "HDI": 0.831
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "HDI": 0.829
+  },
+  {
+    "Country": "Russian Federation",
+    "HDI": 0.822
+  },
+  {
+    "Country": "Romania",
+    "HDI": 0.821
+  },
+  {
+    "Country": "Oman",
+    "HDI": 0.816
+  },
+  {
+    "Country": "Bahamas",
+    "HDI": 0.812
+  },
+  {
+    "Country": "Kazakhstan",
+    "HDI": 0.811
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "HDI": 0.81
+  },
+  {
+    "Country": "Costa Rica",
+    "HDI": 0.809
+  },
+  {
+    "Country": "Uruguay",
+    "HDI": 0.809
+  },
+  {
+    "Country": "Belarus",
+    "HDI": 0.808
+  },
+  {
+    "Country": "Panama",
+    "HDI": 0.805
+  },
+  {
+    "Country": "Malaysia",
+    "HDI": 0.803
+  },
+  {
+    "Country": "Georgia",
+    "HDI": 0.802
+  },
+  {
+    "Country": "Mauritius",
+    "HDI": 0.802
+  },
+  {
+    "Country": "Serbia",
+    "HDI": 0.802
+  },
+  {
+    "Country": "Thailand",
+    "HDI": 0.8
+  },
+  {
+    "Country": "Albania",
+    "HDI": 0.796
+  },
+  {
+    "Country": "Bulgaria",
+    "HDI": 0.795
+  },
+  {
+    "Country": "Grenada",
+    "HDI": 0.795
+  },
+  {
+    "Country": "Barbados",
+    "HDI": 0.79
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "HDI": 0.788
+  },
+  {
+    "Country": "Seychelles",
+    "HDI": 0.785
+  },
+  {
+    "Country": "Sri Lanka",
+    "HDI": 0.782
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "HDI": 0.78
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "HDI": 0.777
+  },
+  {
+    "Country": "Iran (Islamic Republic of)",
+    "HDI": 0.774
+  },
+  {
+    "Country": "Ukraine",
+    "HDI": 0.773
+  },
+  {
+    "Country": "North Macedonia",
+    "HDI": 0.77
+  },
+  {
+    "Country": "China",
+    "HDI": 0.768
+  },
+  {
+    "Country": "Dominican Republic",
+    "HDI": 0.767
+  },
+  {
+    "Country": "Moldova (Republic of)",
+    "HDI": 0.767
+  },
+  {
+    "Country": "Palau",
+    "HDI": 0.767
+  },
+  {
+    "Country": "Cuba",
+    "HDI": 0.764
+  },
+  {
+    "Country": "Peru",
+    "HDI": 0.762
+  },
+  {
+    "Country": "Armenia",
+    "HDI": 0.759
+  },
+  {
+    "Country": "Mexico",
+    "HDI": 0.758
+  },
+  {
+    "Country": "Brazil",
+    "HDI": 0.754
+  },
+  {
+    "Country": "Colombia",
+    "HDI": 0.752
+  },
+  {
+    "Country": "Saint Vincent and the Grenadines",
+    "HDI": 0.751
+  },
+  {
+    "Country": "Maldives",
+    "HDI": 0.747
+  },
+  {
+    "Country": "Algeria",
+    "HDI": 0.745
+  },
+  {
+    "Country": "Azerbaijan",
+    "HDI": 0.745
+  },
+  {
+    "Country": "Tonga",
+    "HDI": 0.745
+  },
+  {
+    "Country": "Turkmenistan",
+    "HDI": 0.745
+  },
+  {
+    "Country": "Ecuador",
+    "HDI": 0.74
+  },
+  {
+    "Country": "Mongolia",
+    "HDI": 0.739
+  },
+  {
+    "Country": "Egypt",
+    "HDI": 0.731
+  },
+  {
+    "Country": "Tunisia",
+    "HDI": 0.731
+  },
+  {
+    "Country": "Fiji",
+    "HDI": 0.73
+  },
+  {
+    "Country": "Suriname",
+    "HDI": 0.73
+  },
+  {
+    "Country": "Uzbekistan",
+    "HDI": 0.727
+  },
+  {
+    "Country": "Dominica",
+    "HDI": 0.72
+  },
+  {
+    "Country": "Jordan",
+    "HDI": 0.72
+  },
+  {
+    "Country": "Libya",
+    "HDI": 0.718
+  },
+  {
+    "Country": "Paraguay",
+    "HDI": 0.717
+  },
+  {
+    "Country": "Palestine, State of",
+    "HDI": 0.715
+  },
+  {
+    "Country": "Saint Lucia",
+    "HDI": 0.715
+  },
+  {
+    "Country": "Guyana",
+    "HDI": 0.714
+  },
+  {
+    "Country": "South Africa",
+    "HDI": 0.713
+  },
+  {
+    "Country": "Jamaica",
+    "HDI": 0.709
+  },
+  {
+    "Country": "Samoa",
+    "HDI": 0.707
+  },
+  {
+    "Country": "Gabon",
+    "HDI": 0.706
+  },
+  {
+    "Country": "Lebanon",
+    "HDI": 0.706
+  },
+  {
+    "Country": "Indonesia",
+    "HDI": 0.705
+  },
+  {
+    "Country": "Viet Nam",
+    "HDI": 0.703
+  },
+  {
+    "Country": "Philippines",
+    "HDI": 0.699
+  },
+  {
+    "Country": "Botswana",
+    "HDI": 0.693
+  },
+  {
+    "Country": "Bolivia (Plurinational State of)",
+    "HDI": 0.692
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "HDI": 0.692
+  },
+  {
+    "Country": "Venezuela (Bolivarian Republic of)",
+    "HDI": 0.691
+  },
+  {
+    "Country": "Iraq",
+    "HDI": 0.686
+  },
+  {
+    "Country": "Tajikistan",
+    "HDI": 0.685
+  },
+  {
+    "Country": "Belize",
+    "HDI": 0.683
+  },
+  {
+    "Country": "Morocco",
+    "HDI": 0.683
+  },
+  {
+    "Country": "El Salvador",
+    "HDI": 0.675
+  },
+  {
+    "Country": "Nicaragua",
+    "HDI": 0.667
+  },
+  {
+    "Country": "Bhutan",
+    "HDI": 0.666
+  },
+  {
+    "Country": "Cabo Verde",
+    "HDI": 0.662
+  },
+  {
+    "Country": "Bangladesh",
+    "HDI": 0.661
+  },
+  {
+    "Country": "Tuvalu",
+    "HDI": 0.641
+  },
+  {
+    "Country": "Marshall Islands",
+    "HDI": 0.639
+  },
+  {
+    "Country": "India",
+    "HDI": 0.633
+  },
+  {
+    "Country": "Ghana",
+    "HDI": 0.632
+  },
+  {
+    "Country": "Micronesia (Federated States of)",
+    "HDI": 0.628
+  },
+  {
+    "Country": "Guatemala",
+    "HDI": 0.627
+  },
+  {
+    "Country": "Kiribati",
+    "HDI": 0.624
+  },
+  {
+    "Country": "Honduras",
+    "HDI": 0.621
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "HDI": 0.618
+  },
+  {
+    "Country": "Namibia",
+    "HDI": 0.615
+  },
+  {
+    "Country": "Lao People's Democratic Republic",
+    "HDI": 0.607
+  },
+  {
+    "Country": "Timor-Leste",
+    "HDI": 0.607
+  },
+  {
+    "Country": "Vanuatu",
+    "HDI": 0.607
+  },
+  {
+    "Country": "Nepal",
+    "HDI": 0.602
+  },
+  {
+    "Country": "Eswatini (Kingdom of)",
+    "HDI": 0.597
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "HDI": 0.596
+  },
+  {
+    "Country": "Cambodia",
+    "HDI": 0.593
+  },
+  {
+    "Country": "Zimbabwe",
+    "HDI": 0.593
+  },
+  {
+    "Country": "Angola",
+    "HDI": 0.586
+  },
+  {
+    "Country": "Myanmar",
+    "HDI": 0.585
+  },
+  {
+    "Country": "Syrian Arab Republic",
+    "HDI": 0.577
+  },
+  {
+    "Country": "Cameroon",
+    "HDI": 0.576
+  },
+  {
+    "Country": "Kenya",
+    "HDI": 0.575
+  },
+  {
+    "Country": "Congo",
+    "HDI": 0.571
+  },
+  {
+    "Country": "Zambia",
+    "HDI": 0.565
+  },
+  {
+    "Country": "Solomon Islands",
+    "HDI": 0.564
+  },
+  {
+    "Country": "Comoros",
+    "HDI": 0.558
+  },
+  {
+    "Country": "Papua New Guinea",
+    "HDI": 0.558
+  },
+  {
+    "Country": "Mauritania",
+    "HDI": 0.556
+  },
+  {
+    "Country": "Côte d'Ivoire",
+    "HDI": 0.55
+  },
+  {
+    "Country": "Tanzania (United Republic of)",
+    "HDI": 0.549
+  },
+  {
+    "Country": "Pakistan",
+    "HDI": 0.544
+  },
+  {
+    "Country": "Togo",
+    "HDI": 0.539
+  },
+  {
+    "Country": "Haiti",
+    "HDI": 0.535
+  },
+  {
+    "Country": "Nigeria",
+    "HDI": 0.535
+  },
+  {
+    "Country": "Rwanda",
+    "HDI": 0.534
+  },
+  {
+    "Country": "Benin",
+    "HDI": 0.525
+  },
+  {
+    "Country": "Uganda",
+    "HDI": 0.525
+  },
+  {
+    "Country": "Lesotho",
+    "HDI": 0.514
+  },
+  {
+    "Country": "Malawi",
+    "HDI": 0.512
+  },
+  {
+    "Country": "Senegal",
+    "HDI": 0.511
+  },
+  {
+    "Country": "Djibouti",
+    "HDI": 0.509
+  },
+  {
+    "Country": "Sudan",
+    "HDI": 0.508
+  },
+  {
+    "Country": "Madagascar",
+    "HDI": 0.501
+  },
+  {
+    "Country": "Gambia",
+    "HDI": 0.5
+  },
+  {
+    "Country": "Ethiopia",
+    "HDI": 0.498
+  },
+  {
+    "Country": "Eritrea",
+    "HDI": 0.492
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "HDI": 0.483
+  },
+  {
+    "Country": "Liberia",
+    "HDI": 0.481
+  },
+  {
+    "Country": "Congo (Democratic Republic of the)",
+    "HDI": 0.479
+  },
+  {
+    "Country": "Afghanistan",
+    "HDI": 0.478
+  },
+  {
+    "Country": "Sierra Leone",
+    "HDI": 0.477
+  },
+  {
+    "Country": "Guinea",
+    "HDI": 0.465
+  },
+  {
+    "Country": "Yemen",
+    "HDI": 0.455
+  },
+  {
+    "Country": "Burkina Faso",
+    "HDI": 0.449
+  },
+  {
+    "Country": "Mozambique",
+    "HDI": 0.446
+  },
+  {
+    "Country": "Mali",
+    "HDI": 0.428
+  },
+  {
+    "Country": "Burundi",
+    "HDI": 0.426
+  },
+  {
+    "Country": "Central African Republic",
+    "HDI": 0.404
+  },
+  {
+    "Country": "Niger",
+    "HDI": 0.4
+  },
+  {
+    "Country": "Chad",
+    "HDI": 0.394
+  },
+  {
+    "Country": "South Sudan",
+    "HDI": 0.385
+  },
+  {
+    "Country": "OTHER COUNTRIES OR TERRITORIES"
+  },
+  {
+    "Country": "Korea (Democratic People's Rep. of)",
+    "HDI": ".."
+  },
+  {
+    "Country": "Monaco",
+    "HDI": ".."
+  },
+  {
+    "Country": "Nauru",
+    "HDI": ".."
+  },
+  {
+    "Country": "Somalia",
+    "HDI": ".."
+  },
+  {
+    "Country": "Very high human development",
+    "HDI": 0.896
+  },
+  {
+    "Country": "High human development",
+    "HDI": 0.754
+  },
+  {
+    "Country": "Medium human development",
+    "HDI": 0.636
+  },
+  {
+    "Country": "Low human development",
+    "HDI": 0.518
+  },
+  {
+    "Country": "Developing countries",
+    "HDI": 0.685
+  },
+  {
+    "Country": "Arab States",
+    "HDI": 0.708
+  },
+  {
+    "Country": "East Asia and the Pacific",
+    "HDI": 0.749
+  },
+  {
+    "Country": "Europe and Central Asia",
+    "HDI": 0.796
+  },
+  {
+    "Country": "Latin America and the Caribbean",
+    "HDI": 0.754
+  },
+  {
+    "Country": "South Asia",
+    "HDI": 0.632
+  },
+  {
+    "Country": "Sub-Saharan Africa",
+    "HDI": 0.547
+  },
+  {
+    "Country": "Least developed countries",
+    "HDI": 0.54
+  },
+  {
+    "Country": "Small island developing states",
+    "HDI": 0.73
+  },
+  {
+    "Country": "Organisation for Economic Co-operation and Development",
+    "HDI": 0.899
+  },
+  {
+    "Country": "World",
+    "HDI": 0.732
+  }
+]
