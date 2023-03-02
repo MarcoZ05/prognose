@@ -9,6 +9,59 @@
   <body>
     <canvas id="myChart" width="400" height="400"> </canvas>
 
-    <script src="js/display.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module">
+      import Data from './data/data.js'
+
+      const ctx = document.getElementById('myChart')
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: Data[0].pop.map((a, i) => {
+            return i
+          }),
+          datasets: [
+            {
+              label: Data[0].country,
+              data: Data[0].pop,
+              borderWidth: 1
+            }
+          ]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          },
+          maintainAspectRatio: false
+        }
+      })
+
+      new Chart(ctx2, {
+        type: 'bar',
+        data: {
+          labels: Data[0].pop.map((a, i) => {
+            return i
+          }),
+          datasets: [
+            {
+              label: Data[0].country,
+              data: Data[0].pop,
+              borderWidth: 1
+            }
+          ]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          },
+          maintainAspectRatio: false
+        }
+      })
+    </script>
   </body>
 </html>
