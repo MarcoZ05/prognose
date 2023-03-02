@@ -11,8 +11,8 @@ pop.shift()
 mort.shift()
 
 let startYear = 2021
-const endYear = 2030
-const countries = ['India']
+const endYear = 2100
+const countries = ['WORLD']
 
 const popArr = []
 
